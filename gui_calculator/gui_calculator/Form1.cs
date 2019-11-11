@@ -26,7 +26,7 @@ namespace gui_calculator
 
                 // berechnen
                 double ergebnis = zahl_1 + zahl_2;
-                Text_Box_Ergebnis.Text = Convert.ToString(ergebnis);
+                Label_Ergebnis.Text = Convert.ToString(ergebnis);
             }
 
             if (RB_Subtraktion.Checked == true)
@@ -36,7 +36,7 @@ namespace gui_calculator
 
                 // berechnen
                 double ergebnis = zahl_1 - zahl_2;
-                Text_Box_Ergebnis.Text = Convert.ToString(ergebnis);
+                Label_Ergebnis.Text = Convert.ToString(ergebnis);
             }
 
             if (RB_Multiplikation.Checked == true)
@@ -46,7 +46,7 @@ namespace gui_calculator
 
                 // berechnen
                 double ergebnis = zahl_1 * zahl_2;
-                Text_Box_Ergebnis.Text = Convert.ToString(ergebnis);
+                Label_Ergebnis.Text = Convert.ToString(ergebnis);
             }
 
             if (RB_Division.Checked == true)
@@ -56,7 +56,7 @@ namespace gui_calculator
 
                 // berechnen
                 double ergebnis = zahl_1 / zahl_2;
-                Text_Box_Ergebnis.Text = Convert.ToString(ergebnis);
+                Label_Ergebnis.Text = Convert.ToString(ergebnis);
             }
 
         }
@@ -65,7 +65,7 @@ namespace gui_calculator
         {
             Text_Box_1.Text = "";
             Text_Box_2.Text = "";
-            Text_Box_Ergebnis.Text = "";
+            Label_Ergebnis.Text = "";
 
         }
 
@@ -82,9 +82,5 @@ namespace gui_calculator
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
