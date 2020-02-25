@@ -17,59 +17,64 @@ namespace gui_calculator
             InitializeComponent();
         } 
 
-        private void Cmd_Berechnen_Click(object sender, EventArgs e)
+        private void CalculateClick(object sender, EventArgs e)
         {
-            if (RB_Addition.Checked == true)
+            if (radioButtonAdditon.Checked)
             {
-                double zahl_1 = Convert.ToDouble(Text_Box_1.Text);
-                double zahl_2 = Convert.ToDouble(Text_Box_2.Text);
+                double x = Convert.ToDouble(textBox_1.Text);
+                double y = Convert.ToDouble(textBox_2.Text);
 
-                // berechnen
-                double ergebnis = zahl_1 + zahl_2;
-                Label_Ergebnis.Text = Convert.ToString(ergebnis);
+                // calculate
+                double ergebnis = x + y;
+                labelResult.Text = Convert.ToString(ergebnis);
             }
 
-            if (RB_Subtraktion.Checked == true)
+            if (radioButtonSubtraction.Checked)
             {
-                double zahl_1 = Convert.ToDouble(Text_Box_1.Text);
-                double zahl_2 = Convert.ToDouble(Text_Box_2.Text);
+                double x = Convert.ToDouble(textBox_1.Text);
+                double y = Convert.ToDouble(textBox_2.Text);
 
-                // berechnen
-                double ergebnis = zahl_1 - zahl_2;
-                Label_Ergebnis.Text = Convert.ToString(ergebnis);
+                // calculate
+                double ergebnis = x - y;
+                labelResult.Text = Convert.ToString(ergebnis);
             }
 
-            if (RB_Multiplikation.Checked == true)
+            if (radioButtonMultiplication.Checked)
             {
-                double zahl_1 = Convert.ToDouble(Text_Box_1.Text);
-                double zahl_2 = Convert.ToDouble(Text_Box_2.Text);
+                double x = Convert.ToDouble(textBox_1.Text);
+                double y = Convert.ToDouble(textBox_2.Text);
 
-                // berechnen
-                double ergebnis = zahl_1 * zahl_2;
-                Label_Ergebnis.Text = Convert.ToString(ergebnis);
+                // calculate
+                double ergebnis = x * y;
+                labelResult.Text = Convert.ToString(ergebnis);
             }
 
-            if (RB_Division.Checked == true)
+            if (radioButtonDivision.Checked)
             {
-                double zahl_1 = Convert.ToDouble(Text_Box_1.Text);
-                double zahl_2 = Convert.ToDouble(Text_Box_2.Text);
+                double x = Convert.ToDouble(textBox_1.Text);
+                double y = Convert.ToDouble(textBox_2.Text);
 
-                // berechnen
-                double ergebnis = zahl_1 / zahl_2;
-                Label_Ergebnis.Text = Convert.ToString(ergebnis);
+                // calculate
+                double ergebnis = x / y;
+                labelResult.Text = Convert.ToString(ergebnis);
             }
 
         }
 
-        private void Cmd_Clean_Click(object sender, EventArgs e)
+        private void CleanClick(object sender, EventArgs e)
         {
-            Text_Box_1.Text = "";
-            Text_Box_2.Text = "";
-            Label_Ergebnis.Text = "";
+            textBox_1.Text = "";
+            textBox_2.Text = "";
+            labelResult.Text = "";
+            radioButtonAdditon.Checked = false;
+            radioButtonSubtraction.Checked = false;
+            radioButtonMultiplication.Checked = false;
+            radioButtonDivision.Checked = false;
+          
 
         }
 
-        private void Cmd_Beenden_Click(object sender, EventArgs e)
+        private void ExitClick(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Wollen Sie die Anwendung wirklich beenden ?", "Anwendung beenden ?",
                 MessageBoxButtons.YesNo);

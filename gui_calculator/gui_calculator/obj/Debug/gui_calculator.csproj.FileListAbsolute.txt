@@ -37,3 +37,12 @@ C:\Users\phili\Source\Repos\gui_calculator\gui_calculator\gui_calculator\obj\Deb
 C:\Users\phili\Source\Repos\gui_calculator\gui_calculator\gui_calculator\obj\Debug\gui_calculator.csproj.GenerateResource.cache
 C:\Users\phili\Source\Repos\gui_calculator\gui_calculator\gui_calculator\obj\Debug\gui_calculator.exe
 C:\Users\phili\Source\Repos\gui_calculator\gui_calculator\gui_calculator\obj\Debug\gui_calculator.pdb
+C:\Users\phili\Source\Repos\gui_calculator\gui_calculator\bin\Debug\gui_calculator.exe.config
+C:\Users\phili\Source\Repos\gui_calculator\gui_calculator\bin\Debug\gui_calculator.exe
+C:\Users\phili\Source\Repos\gui_calculator\gui_calculator\bin\Debug\gui_calculator.pdb
+C:\Users\phili\Source\Repos\gui_calculator\gui_calculator\obj\Debug\gui_calculator.csprojAssemblyReference.cache
+C:\Users\phili\Source\Repos\gui_calculator\gui_calculator\obj\Debug\gui_calculator.Form1.resources
+C:\Users\phili\Source\Repos\gui_calculator\gui_calculator\obj\Debug\gui_calculator.Properties.Resources.resources
+C:\Users\phili\Source\Repos\gui_calculator\gui_calculator\obj\Debug\gui_calculator.csproj.GenerateResource.cache
+C:\Users\phili\Source\Repos\gui_calculator\gui_calculator\obj\Debug\gui_calculator.exe
+C:\Users\phili\Source\Repos\gui_calculator\gui_calculator\obj\Debug\gui_calculator.pdb

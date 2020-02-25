@@ -28,135 +28,143 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Text_Box_1 = new System.Windows.Forms.TextBox();
-            this.Text_Box_2 = new System.Windows.Forms.TextBox();
-            this.RB_Addition = new System.Windows.Forms.RadioButton();
-            this.RB_Subtraktion = new System.Windows.Forms.RadioButton();
-            this.RB_Multiplikation = new System.Windows.Forms.RadioButton();
-            this.RB_Division = new System.Windows.Forms.RadioButton();
-            this.Cmd_Berechnen = new System.Windows.Forms.Button();
-            this.Cmd_Clean = new System.Windows.Forms.Button();
+            this.textBox_1 = new System.Windows.Forms.TextBox();
+            this.textBox_2 = new System.Windows.Forms.TextBox();
+            this.radioButtonAdditon = new System.Windows.Forms.RadioButton();
+            this.radioButtonSubtraction = new System.Windows.Forms.RadioButton();
+            this.radioButtonMultiplication = new System.Windows.Forms.RadioButton();
+            this.radioButtonDivision = new System.Windows.Forms.RadioButton();
+            this.buttonCalculate = new System.Windows.Forms.Button();
+            this.buttonClean = new System.Windows.Forms.Button();
             this.Label = new System.Windows.Forms.Label();
-            this.Label_Ergebnis = new System.Windows.Forms.Label();
+            this.labelResult = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Text_Box_1
+            // textBox_1
             // 
-            this.Text_Box_1.Location = new System.Drawing.Point(96, 66);
-            this.Text_Box_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Text_Box_1.Name = "Text_Box_1";
-            this.Text_Box_1.Size = new System.Drawing.Size(132, 22);
-            this.Text_Box_1.TabIndex = 0;
+            this.textBox_1.Location = new System.Drawing.Point(29, 48);
+            this.textBox_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_1.Name = "textBox_1";
+            this.textBox_1.Size = new System.Drawing.Size(65, 22);
+            this.textBox_1.TabIndex = 0;
             // 
-            // Text_Box_2
+            // textBox_2
             // 
-            this.Text_Box_2.Location = new System.Drawing.Point(96, 98);
-            this.Text_Box_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Text_Box_2.Name = "Text_Box_2";
-            this.Text_Box_2.Size = new System.Drawing.Size(132, 22);
-            this.Text_Box_2.TabIndex = 1;
+            this.textBox_2.Location = new System.Drawing.Point(29, 95);
+            this.textBox_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_2.Name = "textBox_2";
+            this.textBox_2.Size = new System.Drawing.Size(65, 22);
+            this.textBox_2.TabIndex = 1;
             // 
-            // RB_Addition
+            // radioButtonAdditon
             // 
-            this.RB_Addition.AutoSize = true;
-            this.RB_Addition.Location = new System.Drawing.Point(351, 66);
-            this.RB_Addition.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.RB_Addition.Name = "RB_Addition";
-            this.RB_Addition.Size = new System.Drawing.Size(80, 21);
-            this.RB_Addition.TabIndex = 4;
-            this.RB_Addition.TabStop = true;
-            this.RB_Addition.Text = "Addition";
-            this.RB_Addition.UseVisualStyleBackColor = true;
+            this.radioButtonAdditon.AutoSize = true;
+            this.radioButtonAdditon.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonAdditon.Location = new System.Drawing.Point(319, 48);
+            this.radioButtonAdditon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonAdditon.Name = "radioButtonAdditon";
+            this.radioButtonAdditon.Size = new System.Drawing.Size(84, 22);
+            this.radioButtonAdditon.TabIndex = 4;
+            this.radioButtonAdditon.TabStop = true;
+            this.radioButtonAdditon.Text = "Addition";
+            this.radioButtonAdditon.UseVisualStyleBackColor = true;
             // 
-            // RB_Subtraktion
+            // radioButtonSubtraction
             // 
-            this.RB_Subtraktion.AutoSize = true;
-            this.RB_Subtraktion.Location = new System.Drawing.Point(351, 95);
-            this.RB_Subtraktion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.RB_Subtraktion.Name = "RB_Subtraktion";
-            this.RB_Subtraktion.Size = new System.Drawing.Size(101, 21);
-            this.RB_Subtraktion.TabIndex = 5;
-            this.RB_Subtraktion.TabStop = true;
-            this.RB_Subtraktion.Text = "Subtraktion";
-            this.RB_Subtraktion.UseVisualStyleBackColor = true;
+            this.radioButtonSubtraction.AutoSize = true;
+            this.radioButtonSubtraction.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonSubtraction.Location = new System.Drawing.Point(480, 46);
+            this.radioButtonSubtraction.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonSubtraction.Name = "radioButtonSubtraction";
+            this.radioButtonSubtraction.Size = new System.Drawing.Size(105, 22);
+            this.radioButtonSubtraction.TabIndex = 5;
+            this.radioButtonSubtraction.TabStop = true;
+            this.radioButtonSubtraction.Text = "Subtraktion";
+            this.radioButtonSubtraction.UseVisualStyleBackColor = true;
             // 
-            // RB_Multiplikation
+            // radioButtonMultiplication
             // 
-            this.RB_Multiplikation.AutoSize = true;
-            this.RB_Multiplikation.Location = new System.Drawing.Point(351, 123);
-            this.RB_Multiplikation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.RB_Multiplikation.Name = "RB_Multiplikation";
-            this.RB_Multiplikation.Size = new System.Drawing.Size(110, 21);
-            this.RB_Multiplikation.TabIndex = 6;
-            this.RB_Multiplikation.TabStop = true;
-            this.RB_Multiplikation.Text = "Multiplikation";
-            this.RB_Multiplikation.UseVisualStyleBackColor = true;
+            this.radioButtonMultiplication.AutoSize = true;
+            this.radioButtonMultiplication.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonMultiplication.Location = new System.Drawing.Point(319, 76);
+            this.radioButtonMultiplication.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonMultiplication.Name = "radioButtonMultiplication";
+            this.radioButtonMultiplication.Size = new System.Drawing.Size(116, 22);
+            this.radioButtonMultiplication.TabIndex = 6;
+            this.radioButtonMultiplication.TabStop = true;
+            this.radioButtonMultiplication.Text = "Multiplikation";
+            this.radioButtonMultiplication.UseVisualStyleBackColor = true;
             // 
-            // RB_Division
+            // radioButtonDivision
             // 
-            this.RB_Division.AutoSize = true;
-            this.RB_Division.Location = new System.Drawing.Point(351, 151);
-            this.RB_Division.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.RB_Division.Name = "RB_Division";
-            this.RB_Division.Size = new System.Drawing.Size(78, 21);
-            this.RB_Division.TabIndex = 7;
-            this.RB_Division.TabStop = true;
-            this.RB_Division.Text = "Division";
-            this.RB_Division.UseVisualStyleBackColor = true;
+            this.radioButtonDivision.AutoSize = true;
+            this.radioButtonDivision.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonDivision.Location = new System.Drawing.Point(480, 76);
+            this.radioButtonDivision.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonDivision.Name = "radioButtonDivision";
+            this.radioButtonDivision.Size = new System.Drawing.Size(82, 22);
+            this.radioButtonDivision.TabIndex = 7;
+            this.radioButtonDivision.TabStop = true;
+            this.radioButtonDivision.Text = "Division";
+            this.radioButtonDivision.UseVisualStyleBackColor = true;
             // 
-            // Cmd_Berechnen
+            // buttonCalculate
             // 
-            this.Cmd_Berechnen.Location = new System.Drawing.Point(587, 59);
-            this.Cmd_Berechnen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Cmd_Berechnen.Name = "Cmd_Berechnen";
-            this.Cmd_Berechnen.Size = new System.Drawing.Size(100, 32);
-            this.Cmd_Berechnen.TabIndex = 8;
-            this.Cmd_Berechnen.Text = "Berechnen";
-            this.Cmd_Berechnen.UseVisualStyleBackColor = true;
-            this.Cmd_Berechnen.Click += new System.EventHandler(this.Cmd_Berechnen_Click);
+            this.buttonCalculate.Font = new System.Drawing.Font("Arial", 11.25F);
+            this.buttonCalculate.Location = new System.Drawing.Point(319, 127);
+            this.buttonCalculate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonCalculate.Name = "buttonCalculate";
+            this.buttonCalculate.Size = new System.Drawing.Size(116, 32);
+            this.buttonCalculate.TabIndex = 8;
+            this.buttonCalculate.Text = "Berechnen";
+            this.buttonCalculate.UseVisualStyleBackColor = true;
+            this.buttonCalculate.Click += new System.EventHandler(this.CalculateClick);
             // 
-            // Cmd_Clean
+            // buttonClean
             // 
-            this.Cmd_Clean.Location = new System.Drawing.Point(587, 116);
-            this.Cmd_Clean.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Cmd_Clean.Name = "Cmd_Clean";
-            this.Cmd_Clean.Size = new System.Drawing.Size(100, 28);
-            this.Cmd_Clean.TabIndex = 9;
-            this.Cmd_Clean.Text = "Clean";
-            this.Cmd_Clean.UseVisualStyleBackColor = true;
-            this.Cmd_Clean.Click += new System.EventHandler(this.Cmd_Clean_Click);
+            this.buttonClean.Font = new System.Drawing.Font("Arial", 11F);
+            this.buttonClean.Location = new System.Drawing.Point(480, 127);
+            this.buttonClean.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonClean.Name = "buttonClean";
+            this.buttonClean.Size = new System.Drawing.Size(100, 32);
+            this.buttonClean.TabIndex = 9;
+            this.buttonClean.Text = "Clean";
+            this.buttonClean.UseVisualStyleBackColor = true;
+            this.buttonClean.Click += new System.EventHandler(this.CleanClick);
             // 
             // Label
             // 
             this.Label.AutoSize = true;
-            this.Label.Location = new System.Drawing.Point(96, 203);
+            this.Label.Location = new System.Drawing.Point(111, 203);
             this.Label.Name = "Label";
-            this.Label.Size = new System.Drawing.Size(0, 17);
+            this.Label.Size = new System.Drawing.Size(0, 16);
             this.Label.TabIndex = 11;
             // 
-            // Label_Ergebnis
+            // labelResult
             // 
-            this.Label_Ergebnis.AutoSize = true;
-            this.Label_Ergebnis.Location = new System.Drawing.Point(96, 203);
-            this.Label_Ergebnis.Name = "Label_Ergebnis";
-            this.Label_Ergebnis.Size = new System.Drawing.Size(0, 17);
-            this.Label_Ergebnis.TabIndex = 12;
+            this.labelResult.AutoSize = true;
+            this.labelResult.BackColor = System.Drawing.SystemColors.Control;
+            this.labelResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelResult.Location = new System.Drawing.Point(24, 146);
+            this.labelResult.Name = "labelResult";
+            this.labelResult.Size = new System.Drawing.Size(0, 25);
+            this.labelResult.TabIndex = 12;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(743, 345);
-            this.Controls.Add(this.Label_Ergebnis);
+            this.ClientSize = new System.Drawing.Size(689, 324);
+            this.Controls.Add(this.labelResult);
             this.Controls.Add(this.Label);
-            this.Controls.Add(this.Cmd_Clean);
-            this.Controls.Add(this.Cmd_Berechnen);
-            this.Controls.Add(this.RB_Division);
-            this.Controls.Add(this.RB_Multiplikation);
-            this.Controls.Add(this.RB_Subtraktion);
-            this.Controls.Add(this.RB_Addition);
-            this.Controls.Add(this.Text_Box_2);
-            this.Controls.Add(this.Text_Box_1);
+            this.Controls.Add(this.buttonClean);
+            this.Controls.Add(this.buttonCalculate);
+            this.Controls.Add(this.radioButtonDivision);
+            this.Controls.Add(this.radioButtonMultiplication);
+            this.Controls.Add(this.radioButtonSubtraction);
+            this.Controls.Add(this.radioButtonAdditon);
+            this.Controls.Add(this.textBox_2);
+            this.Controls.Add(this.textBox_1);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Taschenrechner";
@@ -167,16 +175,16 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox Text_Box_1;
-        private System.Windows.Forms.TextBox Text_Box_2;
-        private System.Windows.Forms.RadioButton RB_Addition;
-        private System.Windows.Forms.RadioButton RB_Subtraktion;
-        private System.Windows.Forms.RadioButton RB_Multiplikation;
-        private System.Windows.Forms.RadioButton RB_Division;
-        private System.Windows.Forms.Button Cmd_Berechnen;
-        private System.Windows.Forms.Button Cmd_Clean;
+        private System.Windows.Forms.TextBox textBox_1;
+        private System.Windows.Forms.TextBox textBox_2;
+        private System.Windows.Forms.RadioButton radioButtonAdditon;
+        private System.Windows.Forms.RadioButton radioButtonSubtraction;
+        private System.Windows.Forms.RadioButton radioButtonMultiplication;
+        private System.Windows.Forms.RadioButton radioButtonDivision;
+        private System.Windows.Forms.Button buttonCalculate;
+        private System.Windows.Forms.Button buttonClean;
         private System.Windows.Forms.Label Label;
-        private System.Windows.Forms.Label Label_Ergebnis;
+        private System.Windows.Forms.Label labelResult;
     }
 }
 
